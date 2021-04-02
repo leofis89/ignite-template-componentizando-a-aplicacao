@@ -35,10 +35,15 @@
 	return (
 		<div style={{ display: 'flex', flexDirection: 'row' }}>
 		
-		<SideBar onClickButton={handleClickButton} selected={selectedGenreId} />
+		<SideBar 
+			onClickButton={handleClickButton} 
+			selected={selectedGenreId} 
+		/>
 
 		<div className="container">
-			<Content />
+			<Content 
+				selected={selectedGenreId} 
+			/>
 		
 		</div>
 		</div>
