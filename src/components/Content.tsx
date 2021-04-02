@@ -22,7 +22,7 @@ interface MovieProps {
 }
 
 
-
+// PROPS:  selected
 export default function Content (props: Content) {
 	
 	const [movies, setMovies] = useState<MovieProps[]>([]);

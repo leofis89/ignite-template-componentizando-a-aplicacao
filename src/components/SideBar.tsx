@@ -13,6 +13,8 @@ interface SideBar {
 	selected: number;
 }
 
+
+// PROPS:  onClickButton  & selected
 export default function SideBar(props: SideBar) {
 const [genres, setGenres] = useState<GenreResponseProps[]>([]);
 
